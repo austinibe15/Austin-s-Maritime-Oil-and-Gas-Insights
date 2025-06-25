@@ -1,0 +1,63 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+
+    <main>
+      <section>
+        <h1>About Me</h1>
+        <p>Sharing my ocean adventures, experiences at sea, and future collaborations.</p>
+
+        <p>
+          Welcome! This page is a bit different from my main blog, dedicated to sharing my adventures on the high seas. Over time, I will update this space with stories, photos, and videos from my journeys working at sea.
+        </p>
+        <p>
+          My experience includes working as an Able Seaman, combining my passion for the ocean with my skills in IT and software engineering. This unique blend opens doors for exciting collaboration opportunities—whether for work, research, or adventure projects.
+        </p>
+
+        <h2>Ocean Ambassador Project</h2>
+        <p>
+          Here is an introductory video highlighting the Ocean Ambassador project, which aims to promote awareness about life and work at sea.
+        </p>
+        <video controls width="250">
+          <source src="/videos/ocean-ambassador-intro.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+
+        <h2>Sea Experiences</h2>
+        <p>
+          I invite you to explore my collection of photos and videos from my time at sea. These visuals capture the essence of life aboard, the challenges, and the beauty of the ocean.
+        </p>
+        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+          <!-- Video with small size -->
+          <video controls width="250" style="flex-shrink: 0;">
+            <source src="/videos/seaexp.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <img src="/images/sea1.jpg" alt="Sea view" style="width: 100%; max-width: 200px; border-radius: 8px;" />
+          <img src="/images/sea2.jpg" alt="Ship at sea" style="width: 100%; max-width: 200px; border-radius: 8px;" />
+        </div>
+
+        <h2>Future Collaborations</h2>
+        <p>
+          I look forward to connecting with shipping companies, corporate stakeholders, or individuals interested in ocean work life. My background in IT and software engineering could be an asset for innovative projects, research, or adventures at sea.
+        </p>
+      </section>
+    </main>
+
+    <Footer />
+  </body>
+</html>

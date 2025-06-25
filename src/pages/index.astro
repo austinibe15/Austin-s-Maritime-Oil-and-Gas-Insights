@@ -1,0 +1,46 @@
+--- 
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header />
+
+    <main>
+      <section>
+        <h1>Welcome to My Personal Website</h1>
+        <p>Hello! My name is <strong>Ibe Ezenwa Augustine</strong>, but I like to go by <strong>Austin Ibe</strong>. I am a software engineer currently based in Port Harcourt, Nigeria.</p>
+        <p>
+          My professional journey began in the Maritime and Oil & Gas sectors after graduating from Ladoke Akintola University of Technology (LAUTECH) in 2004. I started working in the oil and gas industry as a terminal depot at Apapa, Lagos, Nigeria, serving as a depot representative in 2008.
+        </p>
+        <p>
+          Driven by my flair for marketing, I transitioned into a sales role after achieving a significant sales milestone. My employer then, Cee Cee Global, was amazed to discover I made the highest sales among all sales reps at that time, which led to my promotion from depot representative to sales officer.
+        </p>
+        <p>
+          This opportunity in the oil and gas industry allowed me to explore upstream, midstream, and downstream segments. My curiosity and passion for the industry motivated me to pursue self-study and training to deepen my understanding.
+        </p>
+        <p>
+          In 2013, I established Sunpet Global Enterprises, registered with the Corporate Affairs Commission of Nigeria. You can check out our website: <a href="https://sunpet-global-enterprises.netlify.app" target="_blank" rel="noopener noreferrer">https://sunpet-global-enterprises.netlify.app</a>.
+        </p>
+        <!-- Photos are included below -->
+        <figure>
+  <img src="/images/photo1.jpg" alt="Starting my career at Cee Cee Global" />
+  <figcaption>@MRS Depot Apapa-Lagos, Nigeria 2009</figcaption>
+</figure>
+       <figure>
+  <img src="/images/photo2.jpg" alt="My business journey with a colleague" />
+  <figcaption>With a colleague!</figcaption>
+</figure>
+      </section>
+    </main>
+
+    <Footer />
+  </body>
+</html>
