@@ -17,6 +17,15 @@ This project serves as a resource for industry stakeholders, policy makers, rese
 - Markdown and MDX (for content presentation)
 - Data visualization libraries and tools
 
+### Building the site
+
+This project uses Astro, which internally utilizes Vite for bundling and optimization.
+
+To build the project for production, run:
+
+```bash  
+astro build  
+
 ## Contact
 Feel free to reach out though email:austinibe15@gmail.com for collaborations, feedback, or inquiries related to Nigeria’s maritime and oil & gas industry.
 
