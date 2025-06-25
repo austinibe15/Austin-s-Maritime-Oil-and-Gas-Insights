@@ -18,7 +18,7 @@ This project serves as a resource for industry stakeholders, policy makers, rese
 - Data visualization libraries and tools
 
 ## Contact
-Feel free to reach out for collaborations, feedback, or inquiries related to Nigeria’s maritime and oil & gas industry.
+Feel free to reach out though email:austinibe15@gmail.com for collaborations, feedback, or inquiries related to Nigeria’s maritime and oil & gas industry.
 
 ---
 
