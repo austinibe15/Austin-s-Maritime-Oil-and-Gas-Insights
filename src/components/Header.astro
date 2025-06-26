@@ -1,33 +1,45 @@
----
-import HeaderLink from './HeaderLink.astro';
-import { SITE_TITLE } from '../consts';
----
-<header>
-	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
-		<div class="internal-links">
-			<HeaderLink href="/">Home</HeaderLink>
-			<HeaderLink href="/blog">Blog</HeaderLink>
-			<HeaderLink href="/about">About</HeaderLink>
-		</div>
-		<div class="social-links">
-			<a href="https://web.facebook.com/profile.php?id=100093382128125" target="_blank">
-				<span class="sr-only">Follow Austin Ibe on Facebook</span>
-				<svg viewBox="0 0 24 24" aria-hidden="true" width="32" height="32">
-					<circle cx="12" cy="12" r="10" fill="#1877F2"/>
-					<text x="50%" y="50%" text-anchor="middle" fill="#ffffff" font-size="20" font-family="Arial, sans-serif" dy=".3em">f</text>
-				</svg>
-			</a>
-			<a href="https://x.com/Sunpetglobalent" target="_blank">
-				<span class="sr-only">Follow Austin Ibe on Twitter</span>
-				<svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32">
-					<path
-						fill="currentColor"
-						d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"
-					></path>
-				</svg>
-			</a>
-			<a href="https://github.com/austinibe15?tab=repositories" target="_blank">
+---  
+import HeaderLink from './HeaderLink.astro';  
+import { SITE_TITLE } from '../consts';  
+---  
+
+<header>  
+  <!-- Bolt banner across the top -->  
+  <div class="banner-logo">  
+    <img src="/images/bolt-barge.jpg" alt="Bolt Logo Banner" />  
+  </div>  
+  <nav>  
+    <h2><a href="/">{SITE_TITLE}</a></h2>  
+    <div class="internal-links">  
+      <HeaderLink href="/">Home</HeaderLink>  
+      <HeaderLink href="/blog">Blog</HeaderLink>  
+      <HeaderLink href="/about">About</HeaderLink>  
+    </div>  
+    <div class="social-container">  
+      <div class="social-links">  
+        <!-- Facebook -->  
+        <a href="https://web.facebook.com/profile.php?id=100093382128125" target="_blank" rel="noopener noreferrer">  
+          <span class="sr-only">Follow Austin Ibe on Facebook</span>  
+          <svg viewBox="0 0 24 24" aria-hidden="true" width="32" height="32">  
+            <circle cx="12" cy="12" r="10" fill="#1877F2"/>  
+            <text x="50%" y="50%" text-anchor="middle" fill="#ffffff" font-size="20" font-family="Arial, sans-serif" dy=".3em">f</text>  
+          </svg>  
+        </a>  
+        <!-- Twitter -->  
+        <a href="https://x.com/Sunpetglobalent" target="_blank" rel="noopener noreferrer">  
+          <span class="sr-only">Follow Austin Ibe on Twitter</span>  
+          <svg viewBox="0 0 24 24" aria-hidden="true" width="32" height="32">  
+            <path fill="currentColor" d="M23.954 4.569c-.885.392-1.83.656-2.825.775  
+              1.014-.611 1.794-1.574 2.163-2.724-.951.564-2.005.974-3.127 1.195  
+              -.864-.927-2.03-1.503-3.347-1.503-2.675 0-4.862 2.167-4.862 4.844  
+              0 .24.02.472.058.698-4.028-.2-7.595-2.13-9.996-5.055-.418.713-.659 1.54-.659 2.418  
+              0 1.666.84 3.14 2.118 4.008-.78-.025-1.514-.237-2.159-.593v.061c0 2.33 1.655 4.271 3.847 4.712  
+              -.402.105-.824.161-1.262.161-.308 0-.607-.03-.898-.085.607 1.898 2.368 3.278 4.459 3.316  
+              -1.632 1.288-3.696 2.052-5.935 2.052-.385 0-.763-.022-1.136-.065 2.124 1.368 4.644 2.164 7.347 2.164  
+              8.814 0 13.674-7.301 13.674-13.607 0-.206-.005-.416-.014-.625.938-.679 1.75-1.524 2.396-2.49z" />  
+          </svg>  
+        </a>  
+<a href="https://github.com/austinibe15?tab=repositories" target="_blank">
 				<span class="sr-only">Go to Austin Ibe GitHub repo</span>
 				<svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32">
 					<path
