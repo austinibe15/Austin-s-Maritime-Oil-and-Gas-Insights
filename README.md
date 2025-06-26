@@ -13,25 +13,20 @@ Welcome to **Austin's Maritime Oil and Gas Insights** — a dedicated platform f
 This project serves as a resource for industry stakeholders, policy makers, researchers, and entrepreneurs interested in Nigeria's maritime and oil & gas sectors. It aims to facilitate data-driven decisions, stimulate industry growth, and shed light on critical industry challenges and opportunities.
 
 ## Technologies Used
-- Astro (for static site generation)
+- **Bolt.new** (for building the app from scratch)
+- **Astro** (for static site generation)
 - Markdown and MDX (for content presentation)
 - Data visualization libraries and tools
 
 ### Building the site
 
-This project uses Astro, which internally utilizes Vite for bundling and optimization.
+This project uses **Bolt.new**, a cutting-edge framework that allows quick and efficient app creation. The use of Bolt.new gives this project a clean, modern, and maintainable structure while ensuring performance is optimized.
 
 To build the project for production, run:
 
 ```bash  
-astro build  
+astro build
 
-## Contact
-Feel free to reach out though email:austinibe15@gmail.com for collaborations, feedback, or inquiries related to Nigeria’s maritime and oil & gas industry.
-
----
-
-*(You can expand with installation guidelines, project features, or links to your portfolio if needed.)*
 
 
 
@@ -103,9 +98,6 @@ All commands are run from the root of the project, from a terminal:
 
 Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
-## Credit
 
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
-=======
 # Austin's-Maritime-Oil-and-Gas-Insights
->>>>>>> 94eb1a1356380ca87b788dcbf1e1f423218e41d3
+
