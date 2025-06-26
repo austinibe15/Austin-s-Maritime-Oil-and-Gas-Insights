@@ -98,9 +98,6 @@ All commands are run from the root of the project, from a terminal:
 
 Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
-## Credit
 
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
-=======
 # Austin's-Maritime-Oil-and-Gas-Insights
->>>>>>> 94eb1a1356380ca87b788dcbf1e1f423218e41d3
+
